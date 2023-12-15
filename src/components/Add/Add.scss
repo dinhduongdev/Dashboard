@@ -1,0 +1,19 @@
+@import '../../styles/variables.scss';
+
+
+.add {
+    background-color: rgba(0, 0, 0, 0.5);
+
+    .modal {
+        background-color: $main-bg;
+
+        h1 {
+            color: $soft-color;
+        }
+        form{
+            input{
+                border: 1px solid $soft-color;
+            }
+        }
+    }
+}

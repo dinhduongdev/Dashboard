@@ -1,0 +1,53 @@
+@import './variables.scss';
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+body {
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+}
+
+.main {
+    background-color: $main-bg;
+    color: $main-color;
+    text-transform: capitalize;
+
+    .menuContainer {
+        width: 250px;
+        padding: 5px 20px;
+        border-right: 2px solid $soft-bg;
+    }
+
+    .contentContainer {
+        padding: 5px 20px;
+        width: 100%;
+    }
+}
